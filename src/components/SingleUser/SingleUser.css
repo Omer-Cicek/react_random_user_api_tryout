@@ -1,0 +1,24 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px #333 solid;
+  width: fit-content;
+  min-width: 300px;
+  align-items: flex-start;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.card-img {
+  margin: auto;
+  width: 200px;
+  padding-top: 20px;
+  border-radius: 15px;
+}
+.card-info {
+  margin-left: 1.5rem;
+}
+
+.card-info > * {
+  word-wrap: break-word;
+}
